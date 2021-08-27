@@ -1,0 +1,11 @@
+<footer class="footer">
+  <small class="text-center">
+    <%= t("layouts.footer.introduce",
+      course: link_to(t("layouts.footer.tutorial"), "https://www.railstutorial.org/"),
+      author:  link_to(t("layouts.footer.author"), "https://www.michaelhartl.com/")).html_safe %>
+  </small>
+  <nav class="nav text-right">
+    <%= link_to t("home.about.title"), about_path, class: "nav-link" %>
+    <%= link_to t("home.about.news"), "#", class: "nav-item" %>
+  </nav>
+</footer>

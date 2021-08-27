@@ -8,10 +8,17 @@ vi:
     about:
       title: "Về chúng tôi"
       about-us: "Thiết kế bởi dev 11"
+      news: "Bản mới"
+    tutorial: "Ruby on Rails"
   layouts:
     header:
       logo: "App thử nghiệm"
       eng : "Tiếng Anh"
       vie : "Việt Nam"
       log : "Đăng nhập"
-
+    footer:
+      introduce: "Framework %{course} được viết %{author}"
+      tutorial: " Ruby on Rails"
+      author: "Michael Hart"
+  registers:
+    title: "Đăng ký"
