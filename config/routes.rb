@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
     get "about" , to:"home#about"
 
-    get "sign-up", to:"registers#new"
-    post "sign-up", to:"registers#create"
+    get "sign-up", to:"users#new"
+    post "sign-up", to:"users#create"
+
+    resources :users, only: %i(new create)
   end
 end

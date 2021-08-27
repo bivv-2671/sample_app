@@ -5,10 +5,13 @@ en:
   home:
     index:
       welcome: "Rails for very someone"
+      save_success: "Register success"
+      nil_user: "Not foud information user "
     about:
       title: "About"
       about-us: "Design by dev ruby unit 11"
       news: "News"
+      tutorial: "Ruby on Rails"
   layouts:
     header:
       logo: "Sample app"
@@ -21,3 +24,30 @@ en:
       author: "Michael Hart"
   registers:
     title: "Sign-up"
+    name: "Name"
+    email: "Email"
+    form_err: "The form contains "
+    error: "error"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+    errors:
+      models:
+        user:
+          attributes:
+            name: "Name"
+            name:
+              blank: ": This field cannot be left blank"
+              too_long: ":Maximum character is 50 "
+            email:
+              blank: ": Email cannot be empty!"
+              invalid: ": Email invalid ! "
+              taken: ":Email is already exist"
+              too_long: ":Maximum character is 255"
+            password:
+              blank: ": Please enter password!"
+
