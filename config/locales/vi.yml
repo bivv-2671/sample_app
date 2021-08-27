@@ -1,6 +1,7 @@
 vi:
   hello: "Xin chào thế giới"
   title: "App thử nghiệm"
+  base_title: "App thử nghiệm hướng dẫn ROR"
   home:
     index:
       welcome: "Chào mừng bạn đến với Ruby on Rails"
