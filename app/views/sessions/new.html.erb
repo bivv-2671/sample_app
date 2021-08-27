@@ -1,0 +1,14 @@
+<% content_for :title, t("sign-in.title") %>
+<h1 class="text-center"><%= t "sign-in.title" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for :session, url: login_path do |f| %>
+    <%= f.label t "sign-in.email" %>
+    <%= f.email_field :email, class: "form-control" %>
+    <%= f.label t "sign-in.password" %>
+    <%= f.password_field :password, class: "form-control" %>
+    <%= f.submit t("sign-in.title"), class: "btn btn-primary form-control" %>
+    <% end %>
+    <p><%= t("sign-in.newuser?") %><%= link_to t("sign-in.sign-up !"), sign_up_path %></p>
+  </div>
+</div>
