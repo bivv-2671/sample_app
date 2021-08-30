@@ -1,0 +1,16 @@
+vi:
+  hello: "Xin chào thế giới"
+  title: "App thử nghiệm"
+  home:
+    index:
+      welcome: "Chào mừng bạn đến với Ruby on Rails"
+    about:
+      title: "Về chúng tôi"
+      about-us: "Thiết kế bởi dev 11"
+  layouts:
+    header:
+      logo: "App thử nghiệm"
+      eng : "Tiếng Anh"
+      vie : "Việt Nam"
+      log : "Đăng nhập"
+
