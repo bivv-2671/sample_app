@@ -8,10 +8,16 @@ en:
     about:
       title: "About"
       about-us: "Design by dev ruby unit 11"
+      news: "News"
   layouts:
     header:
       logo: "Sample app"
       eng : "English"
       vie : "Vietnamese"
-      log : "Log up"
-
+      log : "Sign-in"
+    footer:
+      introduce: "The %{course} by %{author}"
+      tutorial: "Ruby on Rails"
+      author: "Michael Hart"
+  registers:
+    title: "Sign-up"
