@@ -19,6 +19,4 @@ ActiveRecord::Schema.define(version: 2021_08_30_050150) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
   end
-
->>>>>>> 802ec0b (init model User, table user and validation)
 end
