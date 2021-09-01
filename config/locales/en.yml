@@ -63,6 +63,20 @@ en:
     wel: "Welcome to the Sample App! Click on the link below to activate your account:"
     hi: "Hi"
     activate: "Account activation"
+    pass_reset: "Password reset"
+    activate: "Account activation"
+    reset: "Password reset"
+    content: "To reset your password click the link below:"
+    timeout: "This link will expire in two hours."
+    reset_body: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  pass-reset:
+    checkmail: "Email sent with password reset instructions"
+    notmail: "Email address not found"
+    pass_reset: "Update password success"
+    expired: "Password reset has expired."
+    update: "Update password"
+    forgot: "Forgot password"
+    confirmation: "Confirm password"
   activerecord:
     attributes:
       user:

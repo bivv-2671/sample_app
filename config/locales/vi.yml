@@ -63,6 +63,21 @@ vi:
     wel: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
     hi: "Xin Chào"
     activate: "Kích hoạt tài khoản"
+    pass_reset: "Đặt lại mật khẩu"
+    activate: "Kích hoạt tài khoản"
+    reset: "Đặt lại mật khẩu"
+    content: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    timeout: "Liên kết này sẽ hết hạn sau hai giờ."
+    reset_body: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  pass-reset:
+    checkmail: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    notmail: "Không tìm thấy địa chỉ email"
+    pass_reset: "Cập nhật mật khẩu thành công"
+    expired: "Đặt lại mật khẩu đã hết hạn."
+    update: "Cập nhật mật khẩu"
+    forgot: "! Quên mật khẩu ?"
+    confirmation : "Nhập lại mật khẩu"
+    "pass_empty": "Trường này không được để trống"
   activerecord:
     attributes:
       user:
