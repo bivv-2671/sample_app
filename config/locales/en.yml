@@ -55,6 +55,14 @@ en:
     show:
       notlogin: "Login success"
       islogin: "Please in login"
+    notaccount: "Account not activated. Check your email for the activation link"
+    activate: "Account activated!"
+    linknot: "Invalid activation link"
+  email:
+    info: "Please check your email to activate your account."
+    wel: "Welcome to the Sample App! Click on the link below to activate your account:"
+    hi: "Hi"
+    activate: "Account activation"
   activerecord:
     attributes:
       user:
