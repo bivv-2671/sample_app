@@ -55,6 +55,11 @@ en:
     show:
       notlogin: "Login success"
       islogin: "Please in login"
+    please: "Please in login"
+  users:
+    show:
+      notlogin: "Login success"
+      islogin: "Please in login"
     notaccount: "Account not activated. Check your email for the activation link"
     activate: "Account activated!"
     linknot: "Invalid activation link"
@@ -92,6 +97,11 @@ en:
     size_max: "Maximum file size is 5MB. Please choose a smaller file."
     feed: "Micropost Feed"
     not_post: "Microposts  does not exist "
+  follow:
+    following: "Following"
+    follower: "Follower"
+    title: "Follow"
+    unfo: "Unfollow"
   activerecord:
     attributes:
       user:

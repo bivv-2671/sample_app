@@ -7,4 +7,7 @@ page_num: 10
 page_per: 50
 expired: 2
 length_image: 5
-
+content_len: 250
+image_width: 500
+image_heigth: 500
+image: 50
