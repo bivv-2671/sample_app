@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by(id: params[:id])
     return if @user
+
     flash[:danger] = t "home.nil_user"
     redirect_to root_path
   end
