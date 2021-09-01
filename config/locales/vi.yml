@@ -5,6 +5,8 @@ vi:
   home:
     index:
       welcome: "Chào mừng bạn đến với Ruby on Rails"
+      save_success: "Đăng ký thành công"
+      nil_user: "Không tìm thấy người dùng"
     about:
       title: "Về chúng tôi"
       about-us: "Thiết kế bởi dev 11"
@@ -22,3 +24,28 @@ vi:
       author: "Michael Hart"
   registers:
     title: "Đăng ký"
+    name: "Tên"
+    email: "Email"
+    form_err: "Tổng số "
+    error: "lỗi"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: ": Trường này không được để trống !"
+              too_long: ":Ký tự tối đa là 50"
+            email:
+              blank: ": Email không được để trống !"
+              invalid: ": Email không hợp lệ ! "
+              taken: ":Email đã tồn tại"
+              too_long: ":Ký tự tối đa 255"
+            password:
+              blank: ": Vui lòng nhập mật khẩu !"
