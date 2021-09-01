@@ -1,3 +1,8 @@
 validation:
   name_max: 50
   email_max: 150
+  pass_min: 6
+
+size_avatar: 80
+page_num: 10
+page_per: 50

@@ -14,6 +14,9 @@ vi:
       logout: "Đăng xuất"
       new_user: "Người dùng mới?"
       invalid_login: "Email hoặc mật khẩu không hợp lệ!"
+      update_s: "Cập nhật thành công"
+      delete_s: "Xóa tài user thành công "
+      delete_f: "Xóa không thành công!"
     about:
       title: "Về chúng tôi"
       about-us: "Thiết kế bởi dev 11"
@@ -25,6 +28,12 @@ vi:
       eng : "Tiếng Anh"
       vie : "Việt Nam"
       log : "Đăng nhập"
+      user: "Người dùng"
+      update: "Cập nhật thông tin cá nhân"
+      save: "Lưu thay đổi"
+      delete: "Xóa"
+      all: "Tất cả người dùng"
+      are_u_sure : "Bạn chắc chắn muốn xóa tài khoản ?"
     footer:
       introduce: "Framework %{course} được viết %{author}"
       tutorial: " Ruby on Rails"
@@ -45,6 +54,7 @@ vi:
   users:
     show:
       notlogin: "Đăng nhập không thành công"
+      islogin: "Vui lòng đăng nhập"
   activerecord:
     attributes:
       user:
@@ -66,3 +76,6 @@ vi:
               too_long: ":Ký tự tối đa 255"
             password:
               blank: ": Vui lòng nhập mật khẩu !"
+              too_short: ": Mật khẩu ít nhât 6 ký tự"
+            password_confirmation:
+              confirmation: "Xác nhận mật khẩu không chính xác"
