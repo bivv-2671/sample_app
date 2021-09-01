@@ -7,6 +7,13 @@ en:
       welcome: "Rails for very someone"
       save_success: "Register success"
       nil_user: "Not foud information user "
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      new_user: "New user?"
+      invalid_login: "Invalid email or password combination!"
     about:
       title: "About"
       about-us: "Design by dev ruby unit 11"
@@ -28,6 +35,15 @@ en:
     email: "Email"
     form_err: "The form contains "
     error: "error"
+  sign-in:
+    title: "Login "
+    email: "Email"
+    password: "Password"
+    newuser: "You not account"
+    sign-up: "Sign up"
+  users:
+    show:
+      notlogin: "Đăng nhập không thành công"
   activerecord:
     attributes:
       user:
@@ -39,7 +55,6 @@ en:
       models:
         user:
           attributes:
-            name: "Name"
             name:
               blank: ": This field cannot be left blank"
               too_long: ":Maximum character is 50 "
@@ -50,4 +65,3 @@ en:
               too_long: ":Maximum character is 255"
             password:
               blank: ": Please enter password!"
-
