@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
     get "about" , to:"home#about"
 
+    get "index", to:"users#index"
     get "sign-up", to:"users#new"
     post "sign-up", to:"users#create"
 
@@ -14,6 +15,8 @@ Rails.application.routes.draw do
     resources :users
 
     resources :account_activations, only: :edit
-    resources :password_resets, only: [:new, :create, :edit, :update]
+    resources :password_resets, except: [:index, :show, :destroy]
+
+    resources :microposts, only: [:create, :destroy]
   end
 end

@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -18,7 +19,6 @@ class User < ApplicationRecord
     allow_nil: true
 
   scope :activated_true, ->{where(activated: true)}
-
   class << self
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost
@@ -57,6 +57,10 @@ class User < ApplicationRecord
   def create_activation_digest
     self.activation_token = User.new_token
     self.activation_digest = User.digest(activation_token)
+  end
+
+  def feed
+    Micropost.latest.with_user id
   end
 
   def activate
