@@ -39,8 +39,9 @@ vi:
     title: "Đăng nhập"
     email: "Email"
     password: "Mật khẩu"
-    newuser: "Bạn chưa có tài khoản"
-    sign-up: "Đăng ký"
+    newuser: "Bạn chưa có tài khoản ?"
+    sign-up: " Đăng ký !"
+    remember: "Nhớ tài khoản"
   users:
     show:
       notlogin: "Đăng nhập không thành công"

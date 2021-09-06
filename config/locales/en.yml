@@ -39,11 +39,12 @@ en:
     title: "Login "
     email: "Email"
     password: "Password"
-    newuser: "You not account"
-    sign-up: "Sign up"
+    newuser: "You not account ?"
+    sign-up: " Sign up !"
+    remember: "Remember me on this computer"
   users:
     show:
-      notlogin: "Đăng nhập không thành công"
+      notlogin: "Login success"
   activerecord:
     attributes:
       user:
