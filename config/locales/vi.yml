@@ -55,6 +55,14 @@ vi:
     show:
       notlogin: "Đăng nhập không thành công"
       islogin: "Vui lòng đăng nhập"
+    notaccount: "Tài khoản chưa được kích hoạt"
+    activate: "Tài khoản đã được kích hoạt"
+    linknot: "Liên kết kích hoạt không hợp lệ"
+  email:
+    info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    wel: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+    hi: "Xin Chào"
+    activate: "Kích hoạt tài khoản"
   activerecord:
     attributes:
       user:

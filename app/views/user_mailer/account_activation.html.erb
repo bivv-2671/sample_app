@@ -1,0 +1,5 @@
+<h1><%=  I18n.t("title") %></h1>
+<p><%=  I18n.t("email.hi") %><%= @user.name %>,</p>
+<p><%=  I18n.t("email.wel") %></p>
+<%= link_to "Activate", edit_account_activation_url(id: @user.activation_token,
+  email: @user.email) %>

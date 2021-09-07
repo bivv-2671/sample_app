@@ -3,11 +3,13 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
-    if user.try(:authenticate, params[:session][:password])
+    return unless user.try(:authenticate, params[:session][:password])
+
+    if user.activated
       pass_authen user
     else
-      flash.now[:danger] = t "users.show.notlogin"
-      render :new
+      flash[:warning] = t "users.notaccount"
+      redirect_to root_path
     end
   end
 
