@@ -39,6 +39,9 @@ group :development, :test do
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
 
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "~> 3.4.1"
+gem "faker", "2.1.2"
 gem "jquery-rails"
+gem "kaminari"
 gem "sassc-rails", ">= 2.1.0"

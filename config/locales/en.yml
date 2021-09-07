@@ -14,6 +14,9 @@ en:
       logout: "Log out"
       new_user: "New user?"
       invalid_login: "Invalid email or password combination!"
+      update_s : "Profile updated"
+      delete_s: "User deleted"
+      delete_f: "Delete fail!"
     about:
       title: "About"
       about-us: "Design by dev ruby unit 11"
@@ -25,6 +28,12 @@ en:
       eng : "English"
       vie : "Vietnamese"
       log : "Sign-in"
+      user: "Users"
+      update: "Update your profile"
+      save: "Save changes"
+      delete: "Delete"
+      all: "All users"
+      are_u_sure: "You sure delete account?"
     footer:
       introduce: "The %{course} by %{author}"
       tutorial: "Ruby on Rails"
@@ -45,6 +54,7 @@ en:
   users:
     show:
       notlogin: "Login success"
+      islogin: "Please in login"
   activerecord:
     attributes:
       user:
@@ -66,3 +76,6 @@ en:
               too_long: ":Maximum character is 255"
             password:
               blank: ": Please enter password!"
+              too_short: "Password at least 6 characters"
+            password_confirmation:
+              confirmation: "Confirm password is incorrect"
