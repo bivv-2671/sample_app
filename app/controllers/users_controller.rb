@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy,
+                :following, :followers]
   before_action :load_user, only: [:show, :edit, :update, :destroy,
                  :correct_user]
   before_action :correct_user, only: [:edit, :update]
@@ -10,7 +11,7 @@ class UsersController < ApplicationController
   end
 
   def show
-     @microposts = @user.microposts.page(params[:page])
+    @microposts = @user.microposts.page(params[:page]).per(Settings.page_num)
   end
 
   def new
@@ -46,6 +47,20 @@ class UsersController < ApplicationController
       flash[:danger] = t "home.index.delete_f"
     end
     redirect_to users_path
+  end
+
+  def following
+    @title = t "follow.following"
+    @user = User.find_by(id: params[:id])
+    @users = @user.following.page(params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "follow.follower"
+    @user = User.find_by(id: params[:id])
+    @users = @user.followers.page(params[:page])
+    render "show_follow"
   end
 
   private

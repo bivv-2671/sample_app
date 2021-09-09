@@ -79,7 +79,6 @@ vi:
     forgot: "! Quên mật khẩu ?"
     confirmation : "Nhập lại mật khẩu"
     "pass_empty": "Trường này không được để trống"
-    forget: "Quên mật khẩu"
   micropost:
     title: "Microposts"
     post: "Bài đăng"
@@ -94,6 +93,11 @@ vi:
     size_max: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
     feed: "Micropost Feed"
     not_post: "Micoposts không tồn tại"
+  follow:
+   following: "Đang theo dõi"
+   follower: "Người theo dõi"
+   title: "Theo dõi"
+   unfo: "Bỏ theo dõi"
   activerecord:
     attributes:
       user:
