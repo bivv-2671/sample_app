@@ -40,9 +40,13 @@ group :development, :test do
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
 
+gem "active_storage_validations", "0.8.2"
 gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "~> 3.4.1"
 gem "faker", "2.1.2"
+gem "i18n-js"
+gem "image_processing", "1.9.3"
 gem "jquery-rails"
 gem "kaminari"
+gem "mini_magick", "4.9.5"
 gem "sassc-rails", ">= 2.1.0"

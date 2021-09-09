@@ -58,6 +58,7 @@ en:
     notaccount: "Account not activated. Check your email for the activation link"
     activate: "Account activated!"
     linknot: "Invalid activation link"
+    view_profile: "view my profile"
   email:
     info: "Please check your email to activate your account."
     wel: "Welcome to the Sample App! Click on the link below to activate your account:"
@@ -77,6 +78,20 @@ en:
     update: "Update password"
     forgot: "Forgot password"
     confirmation: "Confirm password"
+  micropost:
+    title: "Microposts"
+    post: "Posted"
+    ago: "ago"
+    delete: "Delete"
+    are_u_sure: "Are you sure delete?"
+    create_s: "Micropost created !"
+    delete_s: "Micropost deleted !"
+    delete_f: "Deleted fail !"
+    invalid: "User not exists"
+    content: "Compose new micropost..."
+    size_max: "Maximum file size is 5MB. Please choose a smaller file."
+    feed: "Micropost Feed"
+    not_post: "Microposts  does not exist "
   activerecord:
     attributes:
       user:
@@ -101,3 +116,10 @@ en:
               too_short: "Password at least 6 characters"
             password_confirmation:
               confirmation: "Confirm password is incorrect"
+        micropost:
+          attributes:
+            content:
+              blank: ":This field cannot be left blank"
+            image:
+              format: "must be a valid image format"
+              less_than: "should be less than 5MB"

@@ -58,6 +58,7 @@ vi:
     notaccount: "Tài khoản chưa được kích hoạt"
     activate: "Tài khoản đã được kích hoạt"
     linknot: "Liên kết kích hoạt không hợp lệ"
+    view_profile: "Xem thông tin cá nhân"
   email:
     info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     wel: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
@@ -78,6 +79,21 @@ vi:
     forgot: "! Quên mật khẩu ?"
     confirmation : "Nhập lại mật khẩu"
     "pass_empty": "Trường này không được để trống"
+    forget: "Quên mật khẩu"
+  micropost:
+    title: "Microposts"
+    post: "Bài đăng"
+    ago: "trước kia"
+    delete: "Xóa"
+    are_u_sure: "Bạn chắc muốn xóa"
+    create_s: "Tạo Micropost !"
+    delete_s: "Xóa Micropost !"
+    delete_f: "Xóa không thành công !"
+    invalid: "Nguời dùng không tồn tại"
+    content: "Soạn micropost mới ..."
+    size_max: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    feed: "Micropost Feed"
+    not_post: "Micoposts không tồn tại"
   activerecord:
     attributes:
       user:
@@ -85,6 +101,8 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Nhập lại mật khẩu"
+      micropost:
+        content: "Nội dung"
     errors:
       models:
         user:
@@ -102,3 +120,20 @@ vi:
               too_short: ": Mật khẩu ít nhât 6 ký tự"
             password_confirmation:
               confirmation: "Xác nhận mật khẩu không chính xác"
+        micropost:
+          attributes:
+            content:
+              blank: ":Trường này không được để trống"
+            image:
+              format: "phải là một định dạng hình ảnh hợp lệ"
+              less_than: "phải nhỏ hơn 5MB"
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      long: "Ngày %d tháng %m năm %Y"
+      short: "%d/%m"
+  time:
+    formats:
+      default: "%H:%M:%S %d/%m/%Y"
+      long: "Ngày %d tháng %m năm %Y, %H:%M:%S"
+      short: "%d/%m/%Y %H:%M"
